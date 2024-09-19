@@ -1,0 +1,47 @@
+.navbar{
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;/*1st num is top & bottom, 2nd is left & right*/
+    padding: 1rem 2rem; /*1st num is top & bottom, 2nd is left & right*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0; /* position of where to 'stick'*/
+    z-index: 3; /* above everything*/
+}
+.Profile {
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+}
+
+.desktopMenuListItem {
+    margin: 1rem; /* each item will have 1rem spacin around them*/
+    cursor: pointer; /*changes cursor to pointing hand shape*/
+}
+
+.desktopMenuBtn {
+    background: white;
+    color: black; 
+    border: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+}
+
+.desktopMenuListItem:hover {
+    color: blue;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid blue;
+}
+
+.desktopMenuImg {
+    object-fit: cover;
+    height:1rem;
+    width: 1rem;
+    margin: 1rem;
+}
