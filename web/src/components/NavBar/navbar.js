@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css'
-import Profile from '../../assets/Profile.jpg'
+import Profile from '../../assets/Profile.png'
 import { Link } from 'react-scroll'
 import emailSymbol from '../../assets/email.png'
 
