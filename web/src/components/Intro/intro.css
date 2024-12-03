@@ -79,7 +79,8 @@
 
 @media screen and (max-width:840px) {
     .headshot {
-        right: -10vw
+        right: -10vw;
+        opacity: 0.4;
     }
     .introContent{
         font-size: 7vw;
