@@ -32,10 +32,36 @@
     flex-wrap: wrap;
 }
 
-.worksImg {
-    object-fit: cover;
-    height: 20rem;
+.Expandable {
+    position: relative;
+    height:20rem;
+    border: none;
     margin: 0.5rem;
+    display: flex;
+    cursor: pointer;
+}
+
+.worksImg {
+    object-fit: fill;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.caption {
+    position: absolute;
+    background-color: rgb(40, 40, 40);
+    padding: 1rem;
+    width: 100%;
+    bottom: 0%;
+    opacity: 0.85;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.ImgRef {
+    text-align: center;
+    color: white;
+    opacity: 1;
 }
 
 .worksBtn {
@@ -48,6 +74,9 @@
 }
 
 @media screen and (max-width:585px) {
+    .Expandable {
+        height: 48vw;
+    }
     .worksImg {
         height: 48vw;
     }

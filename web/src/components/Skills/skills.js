@@ -6,7 +6,8 @@ import MATLAB from '../../assets/Matlab.png'
 import C from '../../assets/C.png'
 import SQL from '../../assets/SQL.png'
 import VBA from '../../assets/VBA.png'
-import UoB from '../../assets/uob-logo.png'
+import weak from '../../assets/WeakPro.png'
+import strong from '../../assets/StrongPro.png'
 
 const Skills = () => {
     return (
@@ -16,40 +17,61 @@ const Skills = () => {
             <div className='skillBars'>
                 <div className='skillBar'>
                     <div className='skillBarText'>
-                        <h2>Strong Programming Languages</h2>
+                        <h2>Strong Languages</h2>
                         <p>C++: 5 years university experience.</p> 
                         <p>Python: 2 years high intensity experience.</p> 
                         <p>MATLAB: 5 years university experience.</p>
                     </div>
-                    <img src={Cpp} alt='C++' className='skillBarImg'/>
-                    <img src={Python} alt='Python' className='skillBarImg'/>
-                    <img src={MATLAB} alt='MATLAB' className='skillBarImg'/>
+                    <div className='imgR'>
+                        <img src={Cpp} alt='C++' className='skillBarImgR'/>
+                        <img src={Python} alt='Python' className='skillBarImgR'/>
+                        <img src={MATLAB} alt='MATLAB' className='skillBarImgR'/>
+                        <img src={strong} alt='Strong Languages' className='skillBarImgSmall'/>
+                    </div>
 
                 </div>
                 <div className='skillBar'>
-                    <img src={C} alt='C' className='skillBarImg'/>
-                    <img src={SQL} alt='SQL' className='skillBarImg'/>
-                    <img src={VBA} alt='VBA' className='skillBarImg'/>
                     <div className='skillBarText'>
-                        <h2>Beginner Programming Languages</h2>
+                        <h2>Beginner Languages</h2>
                         <p>C: 5 years limited university experience.</p> 
                         <p>SQL: 3 months placement experience.</p> 
                         <p>VBA: 3 months placement experience.</p>
                     </div>
-
+                    <div className='imgR'>
+                        <img src={C} alt='C' className='skillBarImgR'/>
+                        <img src={SQL} alt='SQL' className='skillBarImgR'/>
+                        <img src={VBA} alt='VBA' className='skillBarImgR'/>
+                        <img src={weak} alt='Weak Languages' className='skillBarImgSmall'/>
+                    </div>
                 </div>
-                <div className='skillBar'>
-                    <div className='skillBarText'>
-                        <h2>Other Skills</h2>
-                        <p></p>
+                <div className='skillSide'>
+                    <div className='skillBox'>
+                        <div className='skillBarText'>
+                            <h2>Other Skills</h2>
+                            <p>
+                            <ul style={{listStyleType:'disc'}}>
+                                <li className='bullet'>Power BI</li>
+                                <li className='bullet'>ReactJS</li>
+                                <li className='bullet'>CAD: Inventor, AutoCAD</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className='skillBox'>
+                        <div className='skillBarText'>
+                            <h2>Hobbies</h2>
+                            <p>
+                            <ul style={{listStyleType:'disc'}}>
+                                <li className='bullet'>Swimming</li>
+                                <li className='bullet'>Hockey</li>
+                                <li className='bullet'>Football</li>
+                            </ul>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        Things to include:
-                1. Languages in boxes
-                1. Education (have a hyperlink? maybe can have a flow of each in this as well)
-                2. Previous employment
-                3. Attach CV
         </section>
     )
 }
