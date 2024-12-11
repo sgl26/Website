@@ -1,0 +1,38 @@
+#portfolio {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolioTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.portfolioDesc {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.expImgs {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.slideshow {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
