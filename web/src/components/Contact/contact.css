@@ -1,5 +1,5 @@
-#contactPage {
-    min-height: calc(100vh - 4rem);
+#contact {
+    min-height: calc(100vh - 7rem);
     width: 100vw;
     max-width: 60rem;
     margin: 0 auto;
@@ -82,9 +82,18 @@
     flex-wrap: wrap;
 }
 
-.link {
+.github {
     object-fit:cover;
     height: 3rem;
     width: 3rem;
     margin: 0 0.75rem;
+    filter: invert(100%);
+    cursor: pointer;
+}
+.linkedin {
+    object-fit:cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    cursor: pointer;
 }

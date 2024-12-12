@@ -1,14 +1,32 @@
-.movable {
-    height:30rem;
-    position: relative;
-    width: 90vw;
-    border-radius: 1rem;
-    background-color: rgb(50,50,50);
-    /* box-shadow: rgba(93, 93, 93, 0.2) 0 0.2rem 0.6rem; */
+.container {
     display: flex;
     justify-content: center;
+}
+.movable {
+    height:90%;
+    position: relative;
+    width: 80%;
+    border-radius: 1rem;
+    background-color: none;
+    /* box-shadow: rgba(93, 93, 93, 0.2) 0 0.2rem 0.6rem; */
+    display:flex;
+    justify-content: center;
+    justify-self: center;
     align-items: center;
     overflow: hidden;
+    object-position: center;
+    object-fit: cover;
+    flex-direction:row;
+
+}
+
+.slideBoxes {
+    top: 0;
+    left: 0;
+    position: absolute;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 .modal__Title {
@@ -17,13 +35,15 @@
   }  
   
 .modal__info {
-    background-color: rgb(50,50,50);
+    margin: 1rem;
+    margin-right: 0;
+    background: none;
     display: flex;
 }
 
 .modal__image {
-    width:25vw;
-    height: auto;
+    position:inherit;
+    height: 100%;
     border-radius: 1rem;
 }
 
@@ -33,13 +53,17 @@
     align-items: center;
     text-align: left;
 }
+.modal__row::-webkit-scrollbar {
+    display: none;
+}
 
 .next,
 .prev {
 top: calc(50% - 20px);
 position: absolute;
-background: white;
+background: none;
 border-radius: 30px;
+border: none;
 width: 40px;
 height: 40px;
 display: flex;
@@ -49,17 +73,55 @@ user-select: none;
 cursor: pointer;
 font-weight: bold;
 font-size: 18px;
-color: black;
+color:white;
 z-index: 2;
 }
 
 .next {
-right: 10px;
+right: 1%;
 }
 
 .prev {
-left: 10px;
-transform: scale(-1);
+left: 1%;
+}
+.indicators {
+    position: absolute;
+    bottom: 0;
+    z-index:2;
+    justify-content: center;
+}
+.indicator {
+    background-color: white;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    /*box-shadow: 0px 0px 5px #555;*/
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+.indicator-inactive {
+    background-color: grey;
+}
+
+.hyperlink {
+    background: white;
+    color: black; 
+    border: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 1rem 0rem 0.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.modalImg {
+    object-fit: cover;
+    height:1rem;
+    width: 1rem;
+    margin: 0.75rem;
 }
 
 /* img {
