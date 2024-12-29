@@ -1,0 +1,58 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: rgb(30,30,30);
+    color: white;
+    overflow: hidden; /* x direction */
+    overflow-y: scroll;
+}
+/* Entire scrollbar track */
+::-webkit-scrollbar {
+    width: 12px; /* Width for vertical scrollbar */
+    height: 12px; /* Height for horizontal scrollbar */
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: rgb(50, 50, 50); /* Color of the thumb */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Scrollbar track (the background) */
+::-webkit-scrollbar-track {
+    background: rgb(30, 30, 30); /* Background color of the track */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Optional: hover effect for the thumb */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(70, 70, 70);
+}/* Entire scrollbar track */
+::-webkit-scrollbar {
+    width: 12px; /* Width for vertical scrollbar */
+    height: 12px; /* Height for horizontal scrollbar */
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: rgb(50, 50, 50); /* Color of the thumb */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Scrollbar track (the background) */
+::-webkit-scrollbar-track {
+    background: rgb(30, 30, 30); /* Background color of the track */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Optional: hover effect for the thumb */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(70, 70, 70);
+}

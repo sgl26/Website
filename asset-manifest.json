@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Website/static/css/main.66c2583f.css",
+    "main.js": "/Website/static/js/main.0992c570.js",
+    "static/media/Headshot.png": "/Website/static/media/Headshot.73acef85dc74056456d0.png",
+    "static/media/StrongPro.png": "/Website/static/media/StrongPro.1f5c1a3812947f29155a.png",
+    "static/media/WeakPro.png": "/Website/static/media/WeakPro.73938f20c23f54841116.png",
+    "static/media/Profile.png": "/Website/static/media/Profile.b5078debda70300493ff.png",
+    "static/media/Matlab.png": "/Website/static/media/Matlab.3a0413c14e4b7fdeed70.png",
+    "static/media/VBA.png": "/Website/static/media/VBA.f80b8199a703f96847d0.png",
+    "static/media/linkedIn.png": "/Website/static/media/linkedIn.777832236b3521f2772a.png",
+    "static/media/C++.png": "/Website/static/media/C++.ab3170ccdf9c84415be3.png",
+    "static/media/SQL.png": "/Website/static/media/SQL.536e56a0beefc61091f8.png",
+    "static/media/Python.png": "/Website/static/media/Python.e48006914af0ac08cb52.png",
+    "static/media/C.png": "/Website/static/media/C.db8d9e8c4d0dd031839a.png",
+    "static/media/HireMe.png": "/Website/static/media/HireMe.e0a3f7663e309774b5dc.png",
+    "static/media/email.png": "/Website/static/media/email.5bef130b1cd9408182b9.png",
+    "static/media/Hamburger_icon.png": "/Website/static/media/Hamburger_icon.b4da39d8603842cf76e1.png",
+    "static/media/github.png": "/Website/static/media/github.5324642ac50a1d3825ee.png",
+    "index.html": "/Website/index.html",
+    "main.66c2583f.css.map": "/Website/static/css/main.66c2583f.css.map",
+    "main.0992c570.js.map": "/Website/static/js/main.0992c570.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66c2583f.css",
+    "static/js/main.0992c570.js"
+  ]
+}
