@@ -29,7 +29,7 @@ export const properties = [
     },
     {
         id: 2,
-        imageSrc:"images/babcock.png",
+        imageSrc:"images/Babcock.png",
         setOfData: "Babcock International",
         caption:'Data Analytics Intern',
         description:<div className="Education description">
