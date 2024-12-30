@@ -1,7 +1,7 @@
 {
   "name": "web",
   "version": "0.1.0",
-  "homepage": "https://sgl26.github.io/Website/",
+  "homepage": "https://sgl26.github.io/Website",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
