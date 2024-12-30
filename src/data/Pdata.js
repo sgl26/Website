@@ -54,7 +54,7 @@ export const properties = [
   },
     {
         id: 2,
-        imageSrc:"images/Headshot.png",
+        imageSrc:"images/ProfilePic.png",
         setOfData: "Profile Picture",
         caption:'Website',
         description:<div className="Education description">
