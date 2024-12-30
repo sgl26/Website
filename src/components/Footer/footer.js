@@ -4,7 +4,7 @@ import './footer.css';
 const Footer = () => {
     return (
         <footer className='footer'>
-            2024 Sam Lawton.
+            2024 Sam Lawton
         </footer>
     );
 }
